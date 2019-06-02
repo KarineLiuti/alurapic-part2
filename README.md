@@ -2,7 +2,9 @@
 A project from Alura Courses to understand more about Vue.js
 
 
-## Run API first
+### Run API
+These commands needs to be runned at ```api``` folder.
+
 Install nodemon globally
 ```
 npm install -g nodemon
@@ -13,7 +15,20 @@ Install dependencies
 npm install
 ```
 
-Run project
+Run server
 ```
 nodemon server.js
+```
+
+### Run Application
+These commands needs to be runned at ```AluraPic``` folder.
+
+Install dependencies
+```
+npm install
+```
+
+Run application
+```
+npm run dev
 ```
